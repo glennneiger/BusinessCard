@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "businesscard/ViewController.m"
-            timestampString = "491819093.749335"
+            timestampString = "494836525.512278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
-            landmarkName = "-BCR_VCF2"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "-BCR_VCF2:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -26,12 +26,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "businesscard/ViewController.m"
-            timestampString = "491819093.749335"
+            timestampString = "494836525.512278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "75"
-            endingLineNumber = "75"
-            landmarkName = "-BCR_VCF2"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-BCR_VCF2:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -74,12 +74,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "businesscard/ViewController.m"
-            timestampString = "491819093.749335"
+            timestampString = "494836525.512278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "130"
-            endingLineNumber = "130"
-            landmarkName = "-BCR_Crop"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "-BCR_Crop:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -90,12 +90,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "businesscard/ViewController.m"
-            timestampString = "491819093.749335"
+            timestampString = "494836525.512278"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
-            landmarkName = "-BCR_Crop"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "-BCR_Crop:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "businesscard/CardInfoTableViewController.m"
+            timestampString = "494840601.160193"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "-BCR_Crop:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[CardInfoTableViewController BCR_Crop:]_block_invoke"
+                  moduleName = "businesscard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luculent/Documents/Git/businesscard/businesscard/CardInfoTableViewController.m"
+                  timestampString = "494842473.853217"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "139"
+                  endingLineNumber = "139"
+                  offsetFromSymbolStart = "82">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__40-[CardInfoTableViewController BCR_Crop:]_block_invoke_2"
+                  moduleName = "businesscard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/luculent/Documents/Git/businesscard/businesscard/CardInfoTableViewController.m"
+                  timestampString = "494842473.853319"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "businesscard/CardInfoTableViewController.m"
+            timestampString = "494844142.987262"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "167"
+            endingLineNumber = "167"
+            landmarkName = "-BCR_Crop:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "businesscard/CardInfoTableViewController.m"
+            timestampString = "494840648.978173"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "-BCR_Crop:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

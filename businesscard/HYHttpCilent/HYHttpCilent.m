@@ -143,9 +143,15 @@
                 
                 if (serializaError) {
                     responseObject = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-                    success(response, responseObject);
+                    
+                    if (responseObject) {
+                        success(response, responseObject);
+                    } else {
+                        success(response, data);
+                    }
+                    
                 } else {
-                    success(response, data);
+                    success(response, responseObject);
                 }
                 
             } else {

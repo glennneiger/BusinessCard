@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		A56DAF21A0DD1DA9CEFE0747 /* libPods-businesscard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242A860B8B0543ADADF43DB9 /* libPods-businesscard.a */; };
+		E81DB6031D7E9C89004908C4 /* HYRectDetectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81DB6021D7E9C89004908C4 /* HYRectDetectorViewController.m */; };
+		E81DB6061D7E9CA7004908C4 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81DB6051D7E9CA7004908C4 /* MainPageViewController.m */; };
+		E81DB6081D7E9CF0004908C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E81DB6071D7E9CF0004908C4 /* AVFoundation.framework */; };
+		E81DB60B1D7E9D1D004908C4 /* UIImage+HYLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E81DB60A1D7E9D1D004908C4 /* UIImage+HYLibrary.m */; };
+		E81DB60E1D7EA8DE004908C4 /* CardInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E81DB60D1D7EA8DE004908C4 /* CardInfoTableViewController.m */; };
 		E84040D21D507939009E6812 /* card.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84040D11D507939009E6812 /* card.jpg */; };
 		E84040D41D509014009E6812 /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E84040D31D509014009E6812 /* card1.jpg */; };
 		E871E1FD1D4EF18E004CD916 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E871E1FC1D4EF18E004CD916 /* main.m */; };
@@ -24,6 +29,15 @@
 		242A860B8B0543ADADF43DB9 /* libPods-businesscard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-businesscard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B3CF8FDF19C07094D3EFB84 /* Pods-businesscard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-businesscard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-businesscard/Pods-businesscard.debug.xcconfig"; sourceTree = "<group>"; };
 		85D8D0046AD078EE11B08987 /* Pods-businesscard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-businesscard.release.xcconfig"; path = "Pods/Target Support Files/Pods-businesscard/Pods-businesscard.release.xcconfig"; sourceTree = "<group>"; };
+		E81DB6011D7E9C89004908C4 /* HYRectDetectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRectDetectorViewController.h; sourceTree = "<group>"; };
+		E81DB6021D7E9C89004908C4 /* HYRectDetectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRectDetectorViewController.m; sourceTree = "<group>"; };
+		E81DB6041D7E9CA7004908C4 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		E81DB6051D7E9CA7004908C4 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		E81DB6071D7E9CF0004908C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E81DB6091D7E9D1D004908C4 /* UIImage+HYLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HYLibrary.h"; sourceTree = "<group>"; };
+		E81DB60A1D7E9D1D004908C4 /* UIImage+HYLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HYLibrary.m"; sourceTree = "<group>"; };
+		E81DB60C1D7EA8DE004908C4 /* CardInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardInfoTableViewController.h; sourceTree = "<group>"; };
+		E81DB60D1D7EA8DE004908C4 /* CardInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardInfoTableViewController.m; sourceTree = "<group>"; };
 		E84040D11D507939009E6812 /* card.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card.jpg; sourceTree = "<group>"; };
 		E84040D31D509014009E6812 /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
 		E871E1F81D4EF18E004CD916 /* businesscard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = businesscard.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81DB6081D7E9CF0004908C4 /* AVFoundation.framework in Frameworks */,
 				A56DAF21A0DD1DA9CEFE0747 /* libPods-businesscard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +72,7 @@
 		0BEECA383B27EFADD5C5FDA9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E81DB6071D7E9CF0004908C4 /* AVFoundation.framework */,
 				242A860B8B0543ADADF43DB9 /* libPods-businesscard.a */,
 			);
 			name = Frameworks;
@@ -97,6 +113,14 @@
 				E871E1FF1D4EF18E004CD916 /* AppDelegate.m */,
 				E871E2011D4EF18E004CD916 /* ViewController.h */,
 				E871E2021D4EF18E004CD916 /* ViewController.m */,
+				E81DB6091D7E9D1D004908C4 /* UIImage+HYLibrary.h */,
+				E81DB60A1D7E9D1D004908C4 /* UIImage+HYLibrary.m */,
+				E81DB6041D7E9CA7004908C4 /* MainPageViewController.h */,
+				E81DB6051D7E9CA7004908C4 /* MainPageViewController.m */,
+				E81DB6011D7E9C89004908C4 /* HYRectDetectorViewController.h */,
+				E81DB6021D7E9C89004908C4 /* HYRectDetectorViewController.m */,
+				E81DB60C1D7EA8DE004908C4 /* CardInfoTableViewController.h */,
+				E81DB60D1D7EA8DE004908C4 /* CardInfoTableViewController.m */,
 				E84040D31D509014009E6812 /* card1.jpg */,
 				E84040D11D507939009E6812 /* card.jpg */,
 				E871E2041D4EF18E004CD916 /* Main.storyboard */,
@@ -251,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81DB60B1D7E9D1D004908C4 /* UIImage+HYLibrary.m in Sources */,
 				E89F368B1D506D0B00A56F96 /* HYHttpCilent+SafeParams.m in Sources */,
+				E81DB6031D7E9C89004908C4 /* HYRectDetectorViewController.m in Sources */,
+				E81DB60E1D7EA8DE004908C4 /* CardInfoTableViewController.m in Sources */,
 				E871E2031D4EF18E004CD916 /* ViewController.m in Sources */,
 				E89F36881D506CF100A56F96 /* HYHttpCilent.m in Sources */,
+				E81DB6061D7E9CA7004908C4 /* MainPageViewController.m in Sources */,
 				E871E2001D4EF18E004CD916 /* AppDelegate.m in Sources */,
 				E871E1FD1D4EF18E004CD916 /* main.m in Sources */,
 			);
@@ -372,7 +400,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = businesscard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hillyoung.businesscard339;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hillyoung.7339;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -387,7 +415,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = businesscard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.hillyoung.businesscard339;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hillyoung.7339;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
